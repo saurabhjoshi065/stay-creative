@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay Creative - Contact Us</title>
+    <meta name="description" content="Contact Stay Creative for art workshops and custom paintings in Pune">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e22995487b.js" crossorigin="anonymous"></script>
+
+     <!--?========== FAVICON ===========?-->
+
+    <link rel="shortcut icon" href="./assets/images/StayCreativeLogo.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/require.css">
+    <link rel="stylesheet" href="./assets/css/pages/contact.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" data-preloader>
+        <div class="preloader-circle"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="./index.html" class="logo">
+                <img src="./assets/images/StayCreativeLogo.png" width="190" height="28" alt="Stay Creative">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="./index.html" class="label-lg navbar-link has-after">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="./service.html" class="label-lg navbar-link has-after">What We Offer</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="./portfolio.html" class="label-lg navbar-link has-after">Our Creations</a>
+                    </li>
+                    <!-- <li class="navbar-item">
+                        <a href="#" class="label-lg navbar-link has-after active">Contact</a>
+                    </li> -->
+                </ul>
+            </nav>
+
+            <a href="./contact.html" class="btn btn-primary" style="background-color: #593E31; color:white; padding:10px 20px;">Contact Now</a>
+
+            <button class="nav-open-btn nav-toggle-btn" aria-label="menu" data-nav-toggler>
+                <i class="fa-solid fa-bars" id="menuIcon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <!-- Contact Section -->
+            <section class="section contact has-bg-image" aria-labelledby="contact-label" style="background-image: url(./assets/images/contact-bg.png);">
+                <div class="container">
+                    <!-- WhatsApp Message Button -->
+                   <div class="whatsapp-float">
+                        <a href="https://wa.me/918830522866" target="_blank" class="whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                        </a>
+                    </div>  
+
+                    <!-- Contact Form -->
+                    <form id="contactForm" class="contact-form">
+                        <h2 class="headline-sm" id="contact-label">Get in touch</h2>
+                    
+                        <p class="contact-text body-md">
+                            Our friendly team would love to hear from you.
+                        </p>
+                        
+                        <div class="submit-success" style="display:none; padding:20px; background:rgb(185, 233, 185); margin-bottom:20px;">
+                            Thank you! Your message has been sent. We'll contact you soon.
+                        </div>
+                    
+                        <div class="wrapper">
+                            <div>
+                                <label for="name" class="label">Your Name</label>
+                                <input type="text" id="name" placeholder="Name *" required class="input-field">
+                            </div>
+                    
+                            <div>
+                                <label for="email" class="label">Your Email</label>
+                                <input type="email" id="email" placeholder="Email *" required class="input-field">
+                            </div>
+                        </div>
+                    
+                        <label for="subject" class="label">Subject</label>
+                        <input type="text" id="subject" placeholder="Subject *" class="input-field">
+                    
+                        <label for="message" class="label">Your message</label>
+                        <textarea id="message" placeholder="Your message *" required class="input-field"></textarea>
+                        
+                        <button class="btn btn-tertiary text-center" style="background-color: #593E31; color:white; padding:20px 20px; width:100%;" type="submit">
+                            Submit
+                        </button>
+                    </form>
+                    
+                    <!-- Contact Info -->
+                    <div class="contact-content">
+                        <ul class="contact-list">
+                            <li class="contact-item">
+                                <div class="item-icon" style="background-color: hsl(177, 39%, 72%);">
+                                    <ion-icon name="call" aria-hidden="true"></ion-icon>
+                                </div>
+                                <div>
+                                    <p class="label-lg">Phone</p>
+                                    <a href="tel:+918830522866" class="body-lg">+91 883 052 2866</a>
+                                </div>
+                            </li>
+
+                            <li class="contact-item">
+                                <div class="item-icon" style="background-color: hsl(41, 99%, 64%);">
+                                    <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                                </div>
+                                <div>
+                                    <p class="label-lg">Mail</p>
+                                    <a href="mailto:staycreative71@gmail.com" class="body-lg">staycreative71@gmail.com</a>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <!-- Social Media Links -->
+                        <div class="social-media-section">
+                            <h3 class="label-lg">Follow Us</h3>
+                            <div class="social-media-links">
+                                <a href="https://www.facebook.com/profile.php?id=61563829066571" target="_blank" class="social-link">
+                                    <i class="fab fa-facebook-f"></i> Facebook
+                                </a>
+                                <a href="https://www.instagram.com/stay__creative?igsh=MWl2NXUyajN3Nmh3eQ==" target="_blank" class="social-link">
+                                    <i class="fab fa-instagram"></i> Instagram
+                                </a>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <ul class="social-list">
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=61563829066571" target="_blank" class="social-link">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/stay__creative?igsh=MWl2NXUyajN3Nmh3eQ==" target="_blank" class="social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/918830522866" target="_blank" class="social-link">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+
+            <p id="author" class="text-center">
+                &copy; <span id="year"></span> Stay Creative. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <!-- Custom Contact Form Script -->
+    <script>
+        
+     document.getElementById('contactForm').addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  // Collect input values
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const subject = document.getElementById('subject').value;
+  const message = document.getElementById('message').value;
+
+  // Send POST request to your backend
+  fetch('http://localhost:5000/contact', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      name,
+      email,
+      subject,
+      message
+    })
+  })
+  .then(response => response.json())
+  .then(data => {
+    if (data.success) {
+      alert('Message sent successfully!');
+      document.getElementById('contactForm').reset();
+    } else {
+      alert('Failed to send message. Try again later.');
+    }
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    alert('Something went wrong. Please try again later.');
+  });
+});
+
+    </script>
+</body>
+</html>
