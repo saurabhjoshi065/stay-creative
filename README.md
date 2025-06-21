@@ -3,21 +3,21 @@
 ---
 
 ````markdown
-# Stay Creative
+Stay Creative
 
-## 🧩 Project Overview
+🧩 Project Overview
 
-**Stay Creative** is a full-stack web application powered by Node.js that:
+Stay Creative is a full-stack web application powered by Node.js that:
 
 - Serves static frontend assets  
-- Handles contact form submissions via the **SendGrid** email API  
+- Handles contact form submissions via the SendGrid email API  
 - Provides custom error pages and CORS support
 
-🟢 **Live Site**: [https://staycreative.art/](https://staycreative.art/)
+🟢 Live Site: [https://staycreative.art/](https://staycreative.art/)
 
 ---
 
-## ✨ Features
+ ✨ Features
 
 - 📁 Serves static files from the `/assets` directory  
 - 📬 API endpoint `/contact` to send emails via SendGrid  
@@ -27,31 +27,31 @@
 
 ---
 
-## 🚀 Getting Started
+ 🚀 Getting Started
 
-### ✅ Prerequisites
+ ✅ Prerequisites
 
 - [Node.js](https://nodejs.org/) (version 14 or later)  
 - npm (Node Package Manager)
 
 ---
 
-### 📦 Installation
+ 📦 Installation
 
-1. **Clone the repository**
+1. Clone the repository
 
    ```bash
    git clone https://github.com/saurabhjoshi065/stay-creative.git
    cd stay-creative/Backend
 ````
 
-2. **Install dependencies**
+2. Install dependencies
 
    ```bash
    npm install
    ```
 
-3. **Create a `.env` file** in the `Backend` folder with the following:
+3. Create a `.env` file in the `Backend` folder with the following:
 
    ```env
    SENDGRID_API_KEY=your_sendgrid_api_key
@@ -60,7 +60,7 @@
 
    > ⚠️ Be sure to add `.env` to your `.gitignore` file to prevent exposing secrets.
 
-4. **Run the server**
+4. Run the server
 
    ```bash
    node server.js
@@ -74,9 +74,9 @@
 
 ---
 
-## 📡 API Endpoint
+ 📡 API Endpoint
 
-### POST `/contact`
+ POST `/contact`
 
 Accepts a JSON payload like:
 
@@ -93,7 +93,7 @@ Sends an email using SendGrid.
 
 ---
 
-## 🗂 Project Structure
+ 🗂 Project Structure
 
 ```
 stay-creative/
@@ -110,7 +110,7 @@ stay-creative/
 
 ---
 
-## 📦 Dependencies
+ 📦 Dependencies
 
 * express
 * body-parser
@@ -120,7 +120,7 @@ stay-creative/
 
 ---
 
-## 📄 License
+ 📄 License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
@@ -128,11 +128,11 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ---
 
-### ✅ Tip
+ ✅ Tip
 To preview this markdown in VS Code:
 - Open `README.md`
 - Press `Ctrl+Shift+V` (Windows/Linux) or `Cmd+Shift+V` (Mac)  
-- Or click the **"Open Preview"** icon in the top-right corner of the editor
+- Or click the "Open Preview" icon in the top-right corner of the editor
 
 Let me know if you'd like `.gitignore` content or deployment steps for platforms like Vercel, Render, or Heroku.
 ```
