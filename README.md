@@ -13,7 +13,7 @@ Stay Creative is a full-stack web application powered by Node.js that:
 - Handles contact form submissions via the SendGrid email API  
 - Provides custom error pages and CORS support
 
-🟢 Live Site: [https://staycreative.art/](https://staycreative.art/)
+🟢 Live Site: [https://staycreative.art/]
 
 ---
 
